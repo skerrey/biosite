@@ -24,38 +24,40 @@ header {
 
 footer {
     border-top: 1px solid black;
+    clear: left;
+}
+.bigbox {
+    width: 500px; 
+    height: 600px;
+    background-color: aquamarine;
+    float: left;
 }
 
-.landing-page-img {
+.wrapper {
     display: flex;
-    justify-content: flex-end;
-    display: grid;
-    padding-right: 50px;
-    grid-template-columns: 350px 350px;
-    grid-auto-rows: 250px;
-    grid-gap: 10px;
-    }
+    justify-content: right;
+    column-gap: 10px;
+}
+
+
+.box1, .box2, .box3, .box4 {
+    width: 300px;
+    height: 250px;
+}
+
 .box1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
     background-color: aqua;
-    }
+
+}
+
 .box2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;  
-    background-color: pink;
+    background-color: rgb(218, 84, 158);
 }
 
 .box3 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: royalblue;
+    background-color: rgb(65, 150, 40);
 }
+
 .box4 {
-    background-color: skyblue;
+    background-color: rgb(255, 0, 0);
 }
