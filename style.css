@@ -2,3 +2,60 @@
     Seth Kerrey
     style.css
 */
+
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.header-left {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.landing-page-text {
+}
+
+
+
+footer {
+    border-top: 1px solid black;
+}
+
+.landing-page-img {
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+    padding-right: 50px;
+    grid-template-columns: 350px 350px;
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+    }
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: aqua;
+    }
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    background-color: pink;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: royalblue;
+}
+.box4 {
+    background-color: skyblue;
+}
