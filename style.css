@@ -9,11 +9,11 @@ body {
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .header-left {
@@ -23,35 +23,40 @@ header {
 }
 
 .header-right {
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Lora', serif; 
+    word-spacing: 10px;
 }
 
 main {
-    width: 80%;
+    width: 80%; 
+    height: 520px;
     margin: auto;
 }
 
 footer {
     clear: left;
-    border-top: 1px solid black;
-    margin-top: 70px;
+    border-top: 2px solid black;
+    margin-top: 40px;
     padding: 10px 20px;
     text-align: center;
 }
-.landing-page-text {
+
+/* Landing Page */ 
+
+.landing-page-main {
     width: 700px; 
-    height: 510px;
+    height: 520px;
     background-color: aquamarine;
     float: left;
 }
 
-.landing-page-img {
+.landing-page-sub {
     display: grid;
     grid-template-columns: 350px 350px;
     grid-auto-rows: 250px;
-    grid-gap: 10px;
-    padding-left: 10px;
+    grid-gap: 20px;
+    padding-left: 20px;
     }
 
 .box1 {
@@ -78,6 +83,48 @@ footer {
 }
 .box4 {
     background-color: skyblue;
+}
+
+/* Hobby Page */
+
+.about-page-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1-1, .box1-2, .box1-3 {
+    height: 520px;
+    width: 460px;
+    border: 1px solid black;
+
+}
+
+/* About Page */
+
+.about-page {
+    display: flex;
+}
+
+.box2-1 {
+    height: 520px;
+    width: 520px;
+    border: 1px solid black;
+}
+
+.box2-2 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto 26% auto auto;
+}
+
+.box2-3 {
+    height: 520px;
+    width: 400px;
+    border: 1px solid black;
+    position: absolute;
+    top: 15%;
+    left: 65%;
 }
 
 /* Links */
