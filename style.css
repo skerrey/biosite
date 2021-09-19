@@ -45,10 +45,9 @@ main {
 }
 
 footer {
-    clear: left;
     border-top: 2px solid black;
-    margin-top: 40px;
-    padding: 10px 20px;
+    margin: 30px;
+    padding: 10px 0px;
     text-align: center;
 }
 
@@ -91,9 +90,11 @@ footer {
     grid-row-end: 3;
     background-color: royalblue;
 }
+
 .box4 {
     background-color: skyblue;
 }
+
 
 /* ----------------------------------- Hobby Page ----------------------------------- */ 
 
