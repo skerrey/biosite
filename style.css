@@ -137,6 +137,18 @@ footer {
     left: 65%;
 }
 
+#accordion {
+    width: 60%;
+}
+
+#accordion h3 {
+    font-family: 'Lora', serif; 
+}
+
+#accordion p, #accordion ol {
+    font-family: 'Metrophobic', sans-serif;
+}
+
 /* Links */
 
 a:link {
