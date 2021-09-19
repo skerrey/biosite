@@ -40,7 +40,6 @@ header {
 
 main {
     width: 80%; 
-    height: 520px;
     margin: auto;
 }
 
@@ -106,7 +105,6 @@ footer {
     height: 520px;
     width: 460px;
     border: 1px solid black;
-
 }
 
 /* About Page */
@@ -137,17 +135,6 @@ footer {
     left: 65%;
 }
 
-#accordion {
-    width: 60%;
-}
-
-#accordion h3 {
-    font-family: 'Lora', serif; 
-}
-
-#accordion p, #accordion ol {
-    font-family: 'Metrophobic', sans-serif;
-}
 
 /* Links */
 
