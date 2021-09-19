@@ -3,6 +3,16 @@
     style.css
 */
 
+/* 
+    Color scheme 
+
+    monochromatic: 
+    #22517A #91CAFB #46A6FA #3C5D7A #3884C7
+
+    split complimentary:
+    #AD6642 #FA8B52 #46A6FA #AD931F #FAD639
+*/
+
 body {
     margin: 50px;
     font-family: 'Metrophobic', sans-serif;
