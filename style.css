@@ -27,18 +27,17 @@ body {
     background-image: url("img/background3.png");
 }
 
-header {
-    display: flex;
+nav {
     border-bottom: 2px solid black;
     justify-content: space-between;
-    padding: 0px 50px;
-    margin: 30px;
+    /* padding: 0px 50px;
+    margin: 30px; */
 }
 
 .header-left {
     font-size: 2.4em;
     font-weight: bold;
-    font-family: "Poppins", sans-serif
+    font-family: "Poppins", sans-serif;
 }
 
 .header-right {
