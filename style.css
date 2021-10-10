@@ -25,14 +25,14 @@ body {
 }
 
 .background {
-    background: linear-gradient(#326761, #53a89d);
+    background: linear-gradient(#53a89d, #6ad4c4);
     min-height: 100vh;
 }
 
 nav {
     border-bottom: 2px solid black; 
     justify-content: space-between;
-    background-color: #326761;
+    background-color: #53a89d;
 }
 
 main {
